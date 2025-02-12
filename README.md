@@ -56,20 +56,20 @@ Arguments de ligne de commande disponibles :
 **Fournir un fichier de configuration et un fichier de base de données**
 
 Exécutez la commande suivante pour spécifier les fichiers à utiliser :
-
-python scriptv3_interface_graphique.py --config chemin/vers/config.ini --db chemin/vers/bdd.csv
-
+      ```bash
+      python scriptv3_interface_graphique.py --config chemin/vers/config.ini --db chemin/vers/bdd.csv
+      ```
 **Surcharger l'URL de l'API**
 
 Exécutez la commande suivante pour spécifier une nouvelle URL d'API :
-
-python scriptv3_interface_graphique.py --config chemin/vers/config.ini --db chemin/vers/bdd.csv --api_url https://nouvelle-api.com/range
-
+      ```bash
+      python scriptv3_interface_graphique.py --config chemin/vers/config.ini --db chemin/vers/bdd.csv --api_url https://nouvelle-api.com/range
+      ```
 **Utiliser uniquement l'URL de l'API en surchargeant la configuration**
 
 Exécutez la commande suivante pour uniquement surcharger l'URL de l'API :
-
-python scriptv3_interface_graphique.py --api_url https://nouvelle-api.com/range
-
+      ```bash
+      python scriptv3_interface_graphique.py --api_url https://nouvelle-api.com/range
+      ```
 
 Vous devriez maintenant pouvoir copier ce texte dans un fichier `.md`. Si vous avez besoin d'autres modifications ou si quelque chose ne fonctionne pas comme prévu, n'hésitez pas à me le faire savoir.
