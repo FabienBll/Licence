@@ -59,12 +59,14 @@ Exécutez la commande suivante pour spécifier les fichiers à utiliser :
       ```bash
       python scriptv3_interface_graphique.py --config chemin/vers/config.ini --db chemin/vers/bdd.csv
       ```
+
 **Surcharger l'URL de l'API**
 
 Exécutez la commande suivante pour spécifier une nouvelle URL d'API :
       ```bash
       python scriptv3_interface_graphique.py --config chemin/vers/config.ini --db chemin/vers/bdd.csv --api_url https://nouvelle-api.com/range
       ```
+
 **Utiliser uniquement l'URL de l'API en surchargeant la configuration**
 
 Exécutez la commande suivante pour uniquement surcharger l'URL de l'API :
